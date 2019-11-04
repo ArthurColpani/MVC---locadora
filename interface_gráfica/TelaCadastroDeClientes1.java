@@ -58,7 +58,7 @@ public class TelaCadastroDeClientes1 extends javax.swing.JFrame {
         });
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel6.setText("Cadastrar Clientes");
+        jLabel6.setText("Alugar novo carro");
 
         jButton1.setBackground(new java.awt.Color(255, 0, 0));
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
@@ -71,7 +71,7 @@ public class TelaCadastroDeClientes1 extends javax.swing.JFrame {
 
         jButton2.setBackground(new java.awt.Color(0, 102, 0));
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
-        jButton2.setText("Cadastrar");
+        jButton2.setText("Confirmar");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -149,7 +149,7 @@ public class TelaCadastroDeClientes1 extends javax.swing.JFrame {
                 .addComponent(jButton2)
                 .addGap(18, 18, 18)
                 .addComponent(jButton1)
-                .addContainerGap(48, Short.MAX_VALUE))
+                .addContainerGap(50, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -205,7 +205,7 @@ public class TelaCadastroDeClientes1 extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
-        JOptionPane.showMessageDialog(this, "Cliente cadastrado com sucesso!", "Cars Center ~ Sua hora chegou!", 1);    
+        JOptionPane.showMessageDialog(this, "Seu carro foi alugado com sucesso!", "Cars Center ~ Sua hora chegou!", 1);    
        TelaDeCarrosAlugados ti = new TelaDeCarrosAlugados();
         ti.setVisible(true);
         this.setVisible(false);

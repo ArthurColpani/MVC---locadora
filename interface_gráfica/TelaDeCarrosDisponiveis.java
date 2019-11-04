@@ -53,7 +53,7 @@ public class TelaDeCarrosDisponiveis extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(jTable1);
 
-        jLabel2.setText("Buscar:");
+        jLabel2.setText("Placa do carro:");
 
         jLabel3.setText("Cód. do Carro:");
 
